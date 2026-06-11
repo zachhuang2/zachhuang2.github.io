@@ -43,7 +43,7 @@ nav a{
     align-items:center;
     justify-content:center;
     gap:80px;
-    padding:100px 10%;
+    padding:60px 10%;
 }
 
 .hero-image img{
@@ -89,7 +89,7 @@ nav a{
 .about,
 .featured,
 .page{
-    padding:80px 10%;
+    padding:40px 10%;
 }
 
 .cards,
