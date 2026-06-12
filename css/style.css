@@ -15,7 +15,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:25px 10%;
+    padding:20px 10%;
     position:sticky;
     top:0;
     background:white;
@@ -42,13 +42,13 @@ nav a{
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:80px;
-    padding:60px 10%;
+    gap:40px;
+    padding:30px 10%;
 }
 
 .hero-image img{
     width:320px;
-    border-radius:20px;
+    border-radius:15px;
 }
 
 .hero-text{
@@ -65,7 +65,7 @@ nav a{
 }
 
 .buttons{
-    margin-top:30px;
+    margin-top:20px;
 }
 
 .btn,
@@ -89,7 +89,7 @@ nav a{
 .about,
 .featured,
 .page{
-    padding:40px 10%;
+    padding:30px 10%;
 }
 
 .cards,
@@ -97,7 +97,7 @@ nav a{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
-    margin-top:40px;
+    margin-top:30px;
 }
 
 .card,
