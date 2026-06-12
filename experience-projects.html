@@ -46,34 +46,85 @@
 </section>
 
 <section class="page">
-
     <h1>Projects</h1>
 
     <div class="cards">
-
-        <div class="card">
-            <h3>Relievio: PreservaSense</h3>
-            <p>Pressure injury prevention wearable developed through Rice University's Global Medical Innovation program.</p>
-            <p>2026 Best Medical Device Innovation Award at OEDK Showcase</p>
+        <div class="project-card">
+            <div class="project-card-image">
+                <img src="assets/relievio_patch.png" alt="Relievio: PreservaSense">
+            </div>
+            <div class="project-card-content">
+                <h3>Relievio: PreservaSense</h3>
+                <p>Pressure injury prevention wearable developed through Rice University's Global Medical Innovation program.</p>
+                <p>2026 Best Medical Device Innovation Award at OEDK Showcase</p>
+                <p><a href="assets/relievio.pdf" class="pdf-viewer-link" data-title="Relievio poster" rel="noopener">View Relievio poster (PDF)</a></p>
+            </div>
         </div>
         
-        <div class="card">
-            <h3>Respiratory Monitoring Device</h3>
-            <p>Wearable respiratory monitoring system designed for pediatric clinical applications.</p>
-            <p>2026 Design of Medical Device Conference Finalist</p>
-
+        <div class="project-card">
+            <div class="project-card-image">
+                <img src="assets/respiratory.png" alt="SensAIR: Wearable Respiratory Monitoring">
+            </div>
+            <div class="project-card-content">
+                <h3>SensAIR: Wearable Respiratory Monitoring</h3>
+                <p>Wearable respiratory monitoring system designed for pediatric clinical applications.</p>
+                <p>2026 Design of Medical Device Conference Finalist</p>
+                <p><a href="assets/sensair.pdf" class="pdf-viewer-link" data-title="SensAIR poster" rel="noopener">View SensAIR poster (PDF)</a></p>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>Endovascular Thrombectomy Device</h3>
-            <p>Capstone medical device focused on rapid blood clot removal.</p>
+        <div class="project-card">
+            <div class="project-card-image">
+                <img src="assets/endovascular.jpg" alt="Endovascular Thrombectomy Device">
+            </div>
+            <div class="project-card-content">
+                <h3>UCSD MAE Capstone: Endovascular Thrombectomy Device</h3>
+                <p>Undergraduate Capstone project for a medical device focused on a mechanical thrombectomy for rapid blood clot removal for dialysis patients.</p>
+                <p>2025 Winter MAE Capstone Showcase Department Runner-Up by the American Society of Mechanical Engineers (ASME).</p>
+                <p><a href="assets/endovascular.pdf" class="pdf-viewer-link" data-title="Endovascular Thrombectomy poster" rel="noopener">View Endovascular Thrombectomy poster (PDF)</a></p>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>Morimoto Lab Exoskeleton</h3>
-            <p>Closed-loop pneumatic wrist orthosis with encoder feedback.</p>
+        <div class="project-card">
+            <div class="project-card-image">
+                <img src="assets/h3kit.png" alt="Morimoto Lab H3kit">
+            </div>
+            <div class="project-card-content">
+                <h3>Morimoto Lab: H3kit</h3>
+                <p>First body-grounded, educational haptic device that can generate force feedback.</p>
+                <p>2024 Best Paper Award at IEEE Haptics Symposium.</p>
+                <p><a href="https://ieeexplore.ieee.org/document/10520857" target="_blank" rel="noopener">View H3kit paper (IEEE)</a></p>
+            </div>
+        </div>
+
+
+        <div class="project-card">
+            <div class="project-card-image">
+                <img src="assets/exoskeleton.jpg" alt="Morimoto Lab Exoskeleton">
+            </div>
+            <div class="project-card-content">
+                <h3>Morimoto Lab Exoskeleton</h3>
+                <p>Closed-loop pneumatic wrist orthosis with encoder feedback.</p>
+            </div>
         </div>
 
     </div>
 
 </section>
+
+<div class="pdf-viewer-backdrop" id="pdfViewerBackdrop" hidden>
+    <div class="pdf-viewer-modal" role="dialog" aria-modal="true" aria-labelledby="pdfViewerTitle">
+        <div class="pdf-viewer-header">
+            <div id="pdfViewerTitle">PDF Viewer</div>
+            <div>
+                <a id="pdfViewerDownload" href="#" target="_blank" rel="noopener" class="pdf-viewer-download">Download PDF</a>
+                <button class="pdf-viewer-close" id="pdfViewerClose" aria-label="Close PDF viewer">×</button>
+            </div>
+        </div>
+        <iframe id="pdfViewerIframe" src="" frameborder="0" loading="lazy"></iframe>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

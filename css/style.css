@@ -60,7 +60,7 @@ nav a{
 }
 
 .hero-text h2{
-    color:#2563eb;
+    color:#0f3381;
     margin:15px 0;
 }
 
@@ -77,13 +77,13 @@ nav a{
 }
 
 .btn{
-    background:#2563eb;
+    background:#0f3381;
     color:white;
 }
 
 .btn-outline{
-    border:1px solid #2563eb;
-    color:#2563eb;
+    border:1px solid #0f3381;
+    color:#0f3381;
 }
 
 .about,
@@ -173,3 +173,125 @@ nav{
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     border-left-color: #1d4ed8;
 }
+
+.pdf-viewer-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 999;
+}
+
+.pdf-viewer-backdrop[hidden] {
+    display: none;
+}
+
+.pdf-viewer-modal {
+    width: min(100%, 1100px);
+    height: min(100%, 85vh);
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf-viewer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: #f8fafc;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+}
+
+.pdf-viewer-download,
+.pdf-viewer-close {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.pdf-viewer-download {
+    color: #2563eb;
+    text-decoration: none;
+    margin-right: 14px;
+}
+
+.pdf-viewer-close {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #0f172a;
+}
+
+#pdfViewerIframe {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+}
+
+/* ===== PROJECT CARDS WITH IMAGES ===== */
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0;
+    background: #f8fafc;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.project-card-image svg {
+    width: 60px;
+    height: 60px;
+    opacity: 0.4;
+}
+
+.project-card-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.project-card-content p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+.project-card-content p:last-child {
+    margin-top: auto;
+}
+
+.project-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
