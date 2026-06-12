@@ -9,7 +9,9 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Social preview (Open Graph / Twitter) -->
     <meta name="description" content="Medical device engineer focused on translating clinical needs into validated healthcare technologies.">
@@ -45,21 +47,26 @@
 <section class="hero">
 
     <div class="hero-image">
-        <img src="assets/headshot.jpg" alt="Zachary Huang">
+        <div class="hero-image-frame">
+            <img src="assets/headshot.jpg" alt="Zachary Huang">
+            <span class="hero-image-tag">REV 2026.06</span>
+        </div>
     </div>
 
     <div class="hero-text">
 
+        <span class="eyebrow">Medical Device Engineer · Rice University GMI</span>
+
         <h1>Zachary Huang</h1>
 
         <h2>
-            Masters of Bioengineering | Rice University
+            M.S. Bioengineering, Rice University (2026) · B.S. Mechanical Engineering, UC San Diego (2025)
         </h2>
         <p>
-            I am a medical device engineer focused on translating clinical needs into 
-            validated healthcare technologies. My experience spans product development, 
-            design controls, rapid prototyping, verification and validation testing, and manufacturing.
-            In my free time, I enjoy hiking, cooking, baking, and playing a variety of different sports.
+            I translate clinical needs into validated healthcare technologies. My experience
+            spans product development, design controls, rapid prototyping, verification and
+            validation testing, and manufacturing across Class I&ndash;III devices.
+            Outside of engineering, I enjoy hiking, cooking, baking, and playing a variety of sports.
         </p>
 
         <div class="buttons">
@@ -80,11 +87,13 @@
 
 <section class="about">
 
+    <span class="section-label">Focus Areas</span>
     <h2>Areas of Interest</h2>
 
     <div class="cards">
 
         <div class="card">
+            <span class="card-tag">MED&ndash;DEV</span>
             <h3>Medical Devices</h3>
             <p>
                 Clinical workflow analysis, ISO compliance, V&V testing,
@@ -93,6 +102,7 @@
         </div>
 
         <div class="card">
+            <span class="card-tag">PROD&ndash;DEV</span>
             <h3>Product Development</h3>
             <p>
                 Need finding, prototyping, design iteration,
@@ -101,9 +111,10 @@
         </div>
 
         <div class="card">
+            <span class="card-tag">MECH&ndash;DES</span>
             <h3>Mechanical Design</h3>
             <p>
-                CAD, GD&T, DFM, manufacturing systems,
+                CAD, GD&amp;T, DFM, manufacturing systems,
                 and electromechanical devices.
             </p>
         </div>
@@ -114,41 +125,64 @@
 
 <section class="featured">
 
+    <span class="section-label">Selected Work</span>
     <h2>Featured Work</h2>
 
     <div class="project-grid">
 
         <div class="project-card">
-            <h3>Relievio: PreservaSense</h3>
-            <p>
-                Wearable pressure injury prevention device developed
-                with MD Anderson Cancer Center to reduce hospital-acquired pressure injuries.
-            </p>
+            <div class="project-card-header">
+                <span class="project-tag">2025&ndash;2026</span>
+                <span class="project-status">Award</span>
+            </div>
+            <div class="project-card-content">
+                <h3>Relievio: PreservaSense</h3>
+                <p>
+                    Wearable pressure injury prevention device developed
+                    with MD Anderson Cancer Center to reduce hospital-acquired pressure injuries.
+                </p>
+            </div>
         </div>
 
         <div class="project-card">
-            <h3>SensAIR</h3>
-            <p>
-                Pediatric respiratory rate monitoring system
-                developed with Texas Children's Hospital.
-            </p>
+            <div class="project-card-header">
+                <span class="project-tag">2024&ndash;2025</span>
+                <span class="project-status">Finalist</span>
+            </div>
+            <div class="project-card-content">
+                <h3>SensAIR</h3>
+                <p>
+                    Pediatric respiratory rate monitoring system
+                    developed with Texas Children's Hospital.
+                </p>
+            </div>
         </div>
 
         <div class="project-card">
-            <h3>Endovascular Thrombectomy Device</h3>
-            <p>
-                Class III medical device capstone project
-                for a 2mm mechanical thrombectomy device for rapid 
-                blood clot removal for dialysis patients.
-            </p>
+            <div class="project-card-header">
+                <span class="project-tag">2024&ndash;2025</span>
+                <span class="project-status">Runner-Up</span>
+            </div>
+            <div class="project-card-content">
+                <h3>Endovascular Thrombectomy Device</h3>
+                <p>
+                    Class III medical device capstone project for a 2&nbsp;mm mechanical
+                    thrombectomy device for rapid blood clot removal in dialysis patients.
+                </p>
+            </div>
         </div>
 
         <div class="project-card">
-            <h3>Procter and Gamble Tampax</h3>
-            <p>
-                Investigating fiber materials for next-generation class of 
-                tampons and understanding consumer needs in the next 5 years.
-            </p>
+            <div class="project-card-header">
+                <span class="project-tag">2024</span>
+            </div>
+            <div class="project-card-content">
+                <h3>Procter &amp; Gamble &mdash; Tampax</h3>
+                <p>
+                    Investigated fiber materials for a next-generation tampon platform
+                    and mapped consumer needs over a five-year horizon.
+                </p>
+            </div>
         </div>
 
     </div>
@@ -156,7 +190,7 @@
 </section>
 
 <footer>
-    © 2026 Zachary Huang
+    &copy; 2026 Zachary Huang
 </footer>
 
 </body>
